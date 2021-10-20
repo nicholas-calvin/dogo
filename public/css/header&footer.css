@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #fbeec1;
+    height: 150px;
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+.headerTengah {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.headerTengah img {
+    height: 150px;
+    margin-left: 20px;
+}
+
+.headerKanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerKanan button {
+    height: 30px;
+    width: 100px;
+    margin: 10px 20px 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: lightyellow;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.headerKanan button:hover {
+    background-color: #ffe99c;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #fbeec1;
+    padding: 30px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.aboutus {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus a {
+    color: #7a5635;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.baris2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kiri-footer {
+    margin-left: 50px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.kanan-footer {
+    padding-right: 50px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+}
+
+.socialMedia img {
+    width: 100px;
+    padding-left: 30px;
+}
